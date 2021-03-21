@@ -4,7 +4,7 @@ const express = require('express');
 const cors = require('cors')
 const logger = require('./loggerMiddleware');
 const app = express();
-
+//Cargando todo de nuez
 app.use(cors());
 app.use(express.json());
 
